@@ -1,7 +1,7 @@
 module.exports = {
-  PREFIXE: process.env.PREFIXE || "",
+  PREFIXE: process.env.PREFIXE || "🀄",
   NOM_OWNER: process.env.NOM_OWNER || "Ainz",
-  NUMERO_OWNER: process.env.NUMERO_OWNER || "",
+  NUMERO_OWNER: process.env.NUMERO_OWNER || "22605463559",
   MODE: process.env.MODE || "public",
   MENU: process.env.MENU || "https://i.ibb.co/ynx9QcZ/image.jpg",
   SESSION_ID: process.env.SESSION_ID || "ovl",
