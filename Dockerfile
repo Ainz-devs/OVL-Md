@@ -1,6 +1,6 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Nignanfatao/OVL-Md /root/ovl_bot
+RUN git clone https://github.com/Ainz-devs/OVL-Md /root/ovl_bot
 
 WORKDIR /root/ovl_bot
 
