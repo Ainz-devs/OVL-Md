@@ -10,7 +10,7 @@ let evt = require(__dirname + "/framework/ovlcmd");
 const FileType = require('file-type')
 const prefixe = config.PREFIXE;
 const { Antilink, Antilink_warnings } = require("./DataBase/antilink");
-
+/*
  async function ovlAuth(session) {
     let sessionId;
     try {
@@ -31,7 +31,7 @@ const { Antilink, Antilink_warnings } = require("./DataBase/antilink");
     }
  }
 ovlAuth(session);
-
+*/
 async function main() {
     const { version, isLatest } = await fetchLatestBaileysVersion();
     const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, 'auth'));
